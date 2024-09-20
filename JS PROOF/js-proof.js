@@ -40,9 +40,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Primogems", 1600, "5 star", "White");
-mintNFT("Mora", 500, "3 star", "Yellow");
-mintNFT("Fates", 1000, "4 star", "Pink");
-mintNFT("Crystals", 100, "1 star", "Blue");
+mintNFT("Primogems", 1600, "5 ☆ ☆ ☆ ☆ ☆", "White");
+mintNFT("Mora", 500, "3 ☆ ☆ ☆", "Yellow");
+mintNFT("Fates", 1000, "4 ☆ ☆ ☆ ☆", "Pink");
+mintNFT("Crystals", 100, "1 ☆", "Blue");
 listNFTs();
 getTotalSupply();
