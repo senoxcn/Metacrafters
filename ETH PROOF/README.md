@@ -30,15 +30,16 @@ Follow these steps to set up and run the contract in Remix:
 1. Open [Remix IDE](https://remix.ethereum.org) in your browser.
 2. Create a new file in Remix with the name `MyToken.sol`.
 3. Copy and paste the smart contract code into `MyToken.sol`.
-4. Compile the contract by selecting the Solidity compiler in Remix (make sure to use the appropriate compiler version).
+4. Compile the contract by selecting the Solidity compiler in Remix on left side panel (make sure to use the appropriate compiler version).
 5. Deploy the contract:
-   - Switch to the "Deploy & Run Transactions" tab.
-   - Select the environment (JavaScript VM or Injected Web3 if using MetaMask).
-   - Click "Deploy" to deploy the contract on the selected network.
+   - Switch to the "Deploy & run transactions" tab (under Solidity compiler tab).
+   - Click "Deploy" to deploy the contract.
 
 ### Executing the Program
 
 Once the contract is deployed, you can interact with it using the following functions:
+
+- Copy your account address first and paste it to `_address` field.
 
 - **Mint Tokens**: Use the `mint(address _address, uint _amount)` function to add tokens to an address.
   - Example: To mint 100 tokens to a specific address, enter the address and amount in the function parameters and execute the function.
