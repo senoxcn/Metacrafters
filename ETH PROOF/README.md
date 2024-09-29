@@ -49,3 +49,6 @@ Once the contract is deployed, you can interact with it using the following func
 
 - **Check Balance**: After minting or burning tokens, check the balance of any address by viewing the `balances(address)` mapping in Remix.
 
+### License
+This project is licensed under the MIT License.
+
