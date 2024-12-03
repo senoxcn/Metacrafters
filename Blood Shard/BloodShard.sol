@@ -21,6 +21,12 @@ contract BloodShard is ERC20, Ownable {
         _burn(msg.sender, amount);
     }
 
+    // Transfer tokens to other account
+    function transferTokens(address receiver, uint256 value) external {
+        require(balanceOf(msg.sender) >= value, "You do not have enough Degen Tokens");
+        transfer(receiver, value);
+    }
+
     // Override decimals to set a standard 18 decimal places
     function decimals() public pure override returns (uint8) {
         return 18;
